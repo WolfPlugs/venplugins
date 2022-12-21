@@ -18,10 +18,16 @@
 
 
 import { BadgePosition, ProfileBadge } from "@api/Badges";
-import { Devs } from "@utils/constants";
 import IpcEvents from "@utils/IpcEvents";
 import definePlugin from "@utils/types";
 import { UserStore } from "@webpack/common";
+
+export const Devs = ({
+    wolfie: {
+        name: "Wolfie",
+        id: 347096063569559553n
+    }
+})
 
 export default definePlugin({
     name: "globalbadges",
